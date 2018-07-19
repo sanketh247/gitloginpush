@@ -1,0 +1,236 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8421366013,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The URL of Git Hub",
+            "match": {
+              "location": "Stepdefs.the_URL_of_Git_Hub()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "git-hub-login-feature;login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 134353209,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters sanketh247 as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sanketh247",
+                  "offset": 12
+                }
+              ],
+              "location": "Stepdefs.user_enters_sanketh247_as_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107179359,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters gopala247 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gopala247",
+                  "offset": 12
+                }
+              ],
+              "location": "Stepdefs.user_enters_gopala247_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2073977434,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat skeleton.Stepdefs.user_Clicks_on_SignIn(Stepdefs.java:36)\r\n\tat ✽.And User Clicks on SignIn(skeleton/GitHublogin.feature:10)\r\n",
+              "status": "pending"
+            },
+            "line": 10,
+            "name": "User Clicks on SignIn",
+            "match": {
+              "location": "Stepdefs.user_Clicks_on_SignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User navigates to Git Hub",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Git Hub",
+                  "offset": 18
+                }
+              ],
+              "location": "Stepdefs.user_navigates_to_Git_Hub(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9583020872,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The URL of Git Hub",
+            "match": {
+              "location": "Stepdefs.the_URL_of_Git_Hub()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "git-hub-login-feature;login-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 127851681,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters sanketh246 as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sanketh246",
+                  "offset": 12
+                }
+              ],
+              "location": "Stepdefs.user_enters_sanketh247_as_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124653726,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters gopala247 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gopala247",
+                  "offset": 12
+                }
+              ],
+              "location": "Stepdefs.user_enters_gopala247_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001532595,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat skeleton.Stepdefs.user_Clicks_on_SignIn(Stepdefs.java:36)\r\n\tat ✽.And User Clicks on SignIn(skeleton/GitHublogin.feature:10)\r\n",
+              "status": "pending"
+            },
+            "line": 10,
+            "name": "User Clicks on SignIn",
+            "match": {
+              "location": "Stepdefs.user_Clicks_on_SignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User navigates to Sign In Git Hub",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign In Git Hub",
+                  "offset": 18
+                }
+              ],
+              "location": "Stepdefs.user_navigates_to_Git_Hub(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Git Hub Login Feature",
+    "description": "",
+    "id": "git-hub-login-feature",
+    "keyword": "Feature",
+    "uri": "skeleton/GitHublogin.feature"
+  }
+]

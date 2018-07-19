@@ -5,7 +5,7 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"pretty","html:src/cucumber-reports","json:target/cucumber-reports/report.json"},
+@CucumberOptions(plugin = {"pretty","html:src/cucumber-reports","json:src/cucumber-reports/report.json"},
 tags= {"@Regression"},monochrome=true)
 public class RunCukesTest {
 }
